@@ -6,7 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <style>
      #banner{
-       height: 360px;
+       height: 400px;
        width: 100%;
        object-fit:cover;
      } 
@@ -14,22 +14,33 @@
     <title>Mechspot</title>
   </head>
   <body>
+    {% include 'nav.html' %}
     <div class="container">
-      <h1 class="mt-2 mb-2">Mechspot</h1>
-      <img class="img-fluid" id="banner" src = /static/banner.jpeg>
+      <div class="row">
+        <div class="col-8">
+          <img class="img-fluid" id="banner" src = /static/banner.png>
+        </div>
+        <div class="col-4">
+          <p>Emergency services</p>
+        </div>
+      </div>
       <h2 class="text-center mt-4">About Mechspot</h2>
-      <p>At Mechspot, we pride ourselves on being the go-to destination for all your car servicing and repair needs. Conveniently located in the bustling city of Mumbai, we provide top-quality automotive services, ensuring your vehicle runs smoothly and safely. Our team of certified mechanics is equipped with the latest tools and technology to offer a wide range of services, from routine maintenance to complex repairs.</p>
-      <p>
-      Whether it’s a regular oil change, brake inspection, or engine diagnostics, we’ve got you covered. What sets us apart is our commitment to transparency and customer satisfaction. We offer genuine parts, upfront pricing, and a hassle-free experience that keeps our customers coming back.</p>
-      <p>
-        At Mechspot, we understand the value of your time. That's why we offer free vehicle pick-up and drop-off services, allowing you to focus on what matters most while we take care of your car. With a reputation built on trust and efficiency, we aim to make car servicing a seamless and worry-free experience for everyone in Mumbai.
+      <p class="lead"><b>At Mechspot, we understand that car troubles can strike when you least expect them. Whether it’s a flat tire, a sudden breakdown, or an engine that just won’t start, these moments can disrupt your day and leave you stranded. That’s where we come in. Mechspot is your one-stop solution for emergency car services, providing fast, reliable assistance when you need it the most.</b>
       </p>
-      <p>
-        Let Mechspot be your trusted partner in keeping your vehicle in top condition. Book an appointment today and experience the difference!
+      <p class="lead"><b>
+      What sets us apart is our commitment to customer satisfaction and convenience. We focus on fast response times, clear communication, and affordable pricing. Mechspot is here to provide peace of mind, knowing that reliable help is always within reach. Our team of certified and skilled mechanics ensures that each job is done with precision and care, so you can trust that your car is in good hands.</b>      </p>
+      <p class="lead"><b>
+        At Mechspot, we understand the value of your time. That's why we offer free vehicle pick-up and drop-off services, allowing you to focus on what matters most while we take care of your car. With a reputation built on trust and efficiency, we aim to make car servicing a seamless and worry-free experience for everyone in Mumbai.</b>
+      </p>
+      <p class="lead border-bottom" style= "padding-bottom:10px"><b>
+      We’re more than just a roadside assistance service. We’re a community-focused company, dedicated to providing dependable emergency services for drivers across the region. Whether you’re on your daily commute, a road trip, or just running errands, Mechspot has your back, ready to assist with any unexpected car troubles.</b>
       </p>
       <div class="d-grid gap-2 col-4 mx-auto mb-4">
-        <button class="btn btn-dark" type="link">Book Now</button>
+        <a class="btn btn-dark" href="https://ba7d4088-09e4-4c16-b2ca-fc0a260bdebb-00-1dhf7e9r9kwhg.pike.replit.dev/book" role="button">
+          Book Mechanic Now
+        </a>
       </div>
+      {% include 'footer.html' %}
     </div>
   </body>
 </html>
