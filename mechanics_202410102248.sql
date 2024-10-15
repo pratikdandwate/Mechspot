@@ -1,0 +1,88 @@
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (1,'Ahura Car Care',9834623289,18.975679,72.839127,'Tyre Repair'),
+	 (2,'GoMechanic',8398970970,18.974796,72.846367,'Car Breakdown'),
+	 (3,'GoMechanic - Shams Automobile',8398970970,18.960644,72.847878,'Car Breakdown,Battery Replacement'),
+	 (4,'Smart Car mechanic',8806618930,18.959793,72.827019,'Car Breakdown,Fuel Delivery'),
+	 (5,'Rajan Car Ac and mechanical works',0,18.973392,72.844582,'Car Lockout'),
+	 (6,'Jilani Bhai Mechanic',9892576791,18.961681,72.819855,'Tow Service'),
+	 (7,'United Auto Works',9769273583,18.98406,72.841728,'Tyre Repair, Car Breakdown'),
+	 (8,'My Garage Auto Care',0,18.98288,72.835052,'Tow Service, Car Breakdown'),
+	 (9,'Skilled Auto Care',9987237321,18.977739,72.826874,'Tow Service, Fuel Delivery'),
+	 (10,'A1 Auto Parts And Garage',9833322535,18.964584,72.822105,'Tow Service, Fuel Delivery');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (11,'Fuzail Auto Garage',7021341167,18.956982,72.8153,'Battery Replacemen, Fuel Delivery'),
+	 (12,'The General Auto Electric & Mechanical',0,18.961796,72.813652,'Car Lockout'),
+	 (13,'RNZ Service Station',9920276605,18.971022,72.842255,'Tyre Repair'),
+	 (14,'Gulam Mechanic',9326103016,19.049963,72.860901,'Car Breakdown'),
+	 (15,'SF Auto Garage',9987620945,19.032942,72.859772,'Car Breakdown'),
+	 (16,'Mauli Garage',9137585044,19.003405,72.840202,'Car Breakdown'),
+	 (17,'Babul Cars - AC Repair & Mechanic',9967166141,19.005028,72.840202,'Tyre Repair, Tow Service'),
+	 (18,'Diesel Maestro garage',9892671540,18.95698,72.814796,'Tyre Repair, Tow Service, Battery Replacement'),
+	 (19,'Pollard Bike Works',9769679024,18.942692,72.837799,'Tyre Repair, Battery Replacement, Fuel Delivery'),
+	 (20,'GoMechanic - Car Garage, Colaba',8398970970,18.91736,72.816513,'Car Breakdown, Battery Replacement');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (21,'Sample 1',9876543567,19.012253,72.819244,'Car Breakdown, Battery Replacement'),
+	 (22,'Sample 2',9876543561,19.00104,72.811668,'Car Breakdown, Car Lockout'),
+	 (23,'Sample 3',9876543562,18.97686,72.811592,'Car Breakdown, Car Lockout'),
+	 (24,'Sample 4',9876543563,18.968275,72.810165,'Car Breakdown, Car Lockout'),
+	 (25,'Sample 5',9876543564,18.961996,72.806732,'Car Breakdown, Car Lockout'),
+	 (26,'Practical Auto Welding & Turning Works',9930470313,18.913696,72.825294,'Car Breakdown, Tyre Repair'),
+	 (27,'Sameer Automobile',0,18.915239,72.824181,'Car Breakdown, Tyre Repair'),
+	 (28,'Ballard Auto Works',9821426560,18.937513,72.837662,'Car Breakdown, Tyre Repair, Fuel Delivery'),
+	 (29,'S M Parmeshwar Auto Works',9819692914,18.928734,72.822472,'Tyre Repair, Fuel Delivery'),
+	 (30,'Kalim Auto Works',9869354166,18.93482,72.83036,'Tyre Repair, Fuel Delivery, Battery Replacement');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (31,'True-Fit Auto Works',9820071528,18.937174,72.834976,'Tyre Repair, Fuel Delivery, Battery Replacement'),
+	 (32,'Jupiter Auto Decorators',0,18.943363,72.826515,'Tyre Repair, Fuel Delivery, Battery Replacement'),
+	 (33,'Triconic Car Care',9619382246,18.951916,72.826302,'Tyre Repair, Fuel Delivery, Battery Replacement'),
+	 (34,'Bina automobile',0,18.953909,72.793587,'Car Breakdown, Tow Service'),
+	 (35,'Mehsab .Car A.c worak shop',8879411121,18.942799,72.82959,'Car Breakdown, Tow Service'),
+	 (36,'The General Auto Electric & Mechanical',9877766644,18.961288,72.814049,'Car Breakdown, Tow Service'),
+	 (37,'Galaxy Auto Works',9820225000,19.007277,72.822792,'Car Breakdown, Tow Service, Tyre Repair'),
+	 (38,'Medar auto garage',7400335337,19.006535,72.849724,'Car Breakdown, Battery Replacement, Tyre Repair'),
+	 (39,'GoMechanic Luxe - Highway Car Auto',8398970970,19.044287,72.89135,'Car Breakdown, Battery Replacement, Tyre Repair'),
+	 (40,'Umar auto garage',9869443901,19.071503,72.872459,'Car Breakdown, Battery Replacement, Tyre Repair');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (41,'GoMechanic - Garage Aashique Automobiles',8398970970,19.047485,72.843864,'Car Breakdown, Fuel Delivery'),
+	 (42,'Star Auto Garage Kurla',9833834483,19.056782,72.86953,'Car Breakdown, Fuel Delivery'),
+	 (43,'Select Auto Garage',9833839983,19.015253,72.842728,'Car Breakdown, Fuel Delivery'),
+	 (44,'GoMechanic - Car Service & Repair Dadar',8398970970,19.021805,72.833199,'Car Breakdown, Fuel Delivery'),
+	 (45,'DSOUZA AUTO WORKS',8798970970,19.038158,72.86245,'Car Breakdown, Tow Service, Battery Replacement'),
+	 (46,'ZM motors and autopart',9324374833,19.038185,72.872803,'Car Breakdown, Tow Service, Battery Replacement'),
+	 (47,'13 MOTO RIDE AND CARE',7710090913,19.052626,72.871086,'Car Breakdown, Tow Service, Battery Replacement'),
+	 (48,'GoMechanic - Smart Car Workshop Chembur',8398970970,19.047104,72.893257,'Car Breakdown, Tow Service, Battery Replacement'),
+	 (49,'Universal Automotive',8394970970,19.017193,72.818413,'Tyre Repair, Tow Service, Battery Replacement'),
+	 (50,'Vicky Garage',9326422021,19.056833,72.879402,'Tyre Repair, Tow Service, Battery Replacement');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (51,'Rahim auto cars doctor',8369098174,19.048023,72.908546,'Tyre Repair, Tow Service, Battery Replacement'),
+	 (52,'Maharashtra Garage',9082297074,19.05389,72.910858,'Tyre Repair, Tow Service, Battery Replacement'),
+	 (53,'Rahul car mechanic',9029887104,19.072577,72.909607,'Car Breakdown, Battery Replacement'),
+	 (54,'My Mechanic',7208500234,19.071646,72.983932,'Car Breakdown, Battery Replacement'),
+	 (55,'T S Auto Garage',9892503154,19.070511,72.989166,'Car Breakdown, Battery Replacement'),
+	 (56,'GoMechanic Mumbai (H.Q.)',8398970970,19.067394,73.00753,'Car Breakdown, Battery Replacement'),
+	 (57,'Car Thik Karo',8692885354,19.080307,73.00531,'Car Breakdown, Battery Replacement'),
+	 (58,'S K Autowork-Car Repair',8879707048,19.081411,73.004692,'Car Breakdown, Battery Replacement, Car Lockout'),
+	 (59,'Nagraj Auto Garage',8879707066,19.082012,73.006393,'Car Breakdown, Battery Replacement, Car Lockout'),
+	 (60,'New star motors',8879307066,19.092178,73.017906,'Car Breakdown, Battery Replacement, Car Lockout');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (61,'BABA AUTOMOBILE',7506511271,19.061876,73.015549,'Car Breakdown, Tow Service, Car Lockout'),
+	 (62,'Naivedh Motors',9930365001,19.063446,73.017067,'Car Breakdown, Tow Service, Car Lockout'),
+	 (63,'GoMechanic - Car Service Center Nerul',8398970970,19.045046,73.010963,'Car Breakdown, Tow Service, Car Lockout'),
+	 (64,'Ajit Auto Garage',9820794488,19.044371,73.013618,'Car Breakdown, Tow Service, Car Lockout'),
+	 (65,'Car Zone',9223287997,19.049088,73.028404,'Tyre Repair, Tow Service, Car Lockout'),
+	 (66,'GoMechanic The Car Clinic',8398970970,19.045195,73.029953,'Tyre Repair, Tow Service, Fuel Delivery'),
+	 (67,'Dfleet Service',9967698884,19.03603,73.02739,'Tyre Repair, Tow Service, Fuel Delivery'),
+	 (68,'A9 Auto Garage',8082037642,19.024784,73.014641,'Tyre Repair, Tow Service, Fuel Delivery'),
+	 (69,'A1 Auto Garage',8082072681,19.02005,73.01181,'Tyre Repair, Tow Service, Fuel Delivery'),
+	 (70,'ROYAL AUTO CAR REPAIR',8082072681,19.02005,73.01181,'Tyre Repair, Car Breakdown, Fuel Delivery');
+INSERT INTO mechanic.mechanics (id,name,`number`,lat,lng,services) VALUES
+	 (71,'Car Auto Garage',8082072634,19.016932,73.02301,'Tyre Repair, Car Breakdown, Fuel Delivery'),
+	 (72,'A to Z Car',9594419920,19.015959,73.028435,'Tyre Repair, Car Breakdown, Fuel Delivery'),
+	 (73,'Chand Auto Garage',9836398349,19.033855,73.028877,'Tyre Repair, Car Breakdown, Fuel Delivery'),
+	 (74,'S.K Mechanics',8308011118,19.045963,73.062431,'Tyre Repair, Car Breakdown, Fuel Delivery'),
+	 (75,'MY MECHANIC',7208500234,19.035692,73.077667,'Tyre Repair, Car Breakdown'),
+	 (76,'GoMechanic - Garage Mechanic',8398970970,19.050142,73.070236,'Tyre Repair, Car Breakdown, Battery Replacement'),
+	 (77,'New A to Z Garage',9920072421,19.051785,73.067741,'Tyre Repair, Car Breakdown, Battery Replacement'),
+	 (78,'Yaseen Auto Garage',9029213955,19.072878,73.075897,'Tyre Repair, Car Breakdown, Battery Replacement'),
+	 (79,'Gearz Car Service and Repair',9820174321,19.074987,73.077011,'Tyre Repair, Car Breakdown, Battery Replacement'),
+	 (80,'M K Auto Garage',7666311311,19.039968,73.097733,'Car Lockout, Tow Service, Fuel Delivery');
